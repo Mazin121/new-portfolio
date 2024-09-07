@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Hello My name is Mazeen</h1>
+            <p>Welcome to my portfolio.</p>
+            <a href="#projects" class="button">See My Work</a>
+        </div>
+    </section>
+
+    
+
+    <section id="projects">
+        <div class="gallery">
+        <div class="project">
+            <h1 class="project-heading">Login Page</h1>
+            <p class="project-caption">This is the caption for project 1.</p>
+            <img src="Project1.png" alt="Thumbnail 1" class="thumbnail" data-caption="This is the caption for project 1">
+          <button class="view-button" data-image="Project1.png" data-caption="This is the caption for project 3">View</button>
+        </div>
+        <div class="project">
+            <h1 class="project-heading">Table</h1>
+            <p class="project-caption">This is the caption for project 2.</p>
+            <img src="p2.png" alt="Thumbnail 2" class="thumbnail" data-caption="This is the caption for project 2">
+             <button class="view-button" data-image="p2.png" data-caption="This is the caption for project 3">View</button>
+        </div>
+        <div class="project">
+            <h1 class="project-heading">Sign Up Page</h1>
+            <p class="project-caption">This is the caption for project 3.</p>
+            <img src="p3.png" alt="Thumbnail 3" class="thumbnail" data-caption="This is the caption for project 3">
+             <button class="view-button" data-image="p3.png" data-caption="This is the caption for project 3">View</button>
+        </div>
+    <div class="project">
+            <h1 class="project-heading">Simple naveber</h1>
+            <p class="project-caption">This is the caption for project 3.</p>
+            <img src="p4.png" alt="Thumbnail 4" class="thumbnail" data-caption="This is the caption for project 3">
+             <button class="view-button" data-image="p4.png" data-caption="This is the caption for project 3">View</button>
+        </div>
+
+    <!-- Fullscreen Image Modal -->
+    <div id="fullscreen-modal" class="fullscreen-modal">
+        <span class="close" id="close">&times;</span>
+        <img class="fullscreen-image" id="fullscreen-image">
+        <div class="fullscreen-caption" id="fullscreen-caption"></div>
+    </div>
+
+    </section>
+<section id="about">
+        <h2>About Me</h2>
+        <h4>Im a ux /ui designer austin based who loves clean, simple &amp; unique design. i also enjoy crafting brand identities, icons,</h4>
+        <p>Brief introduction about yourself. Your background, skills, and what you are passionate about.</p>
+        <div class="icon">
+        <a href="" id="at"><i class="fa-brands fa-x-twitter" ></i></a>
+        <a href="https://www.facebook.com/Maziin10" id="af"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com/_maziinn_/?next=%2F" id="ai"><i class="fa-brands fa-square-instagram"></i></a>
+       
+      </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
