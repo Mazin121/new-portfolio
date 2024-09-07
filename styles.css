@@ -32,7 +32,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     text-decoration: none;
-    background-color: #6e1c1c;
+    background-color:rgb(35, 73, 100);
     padding: 7px;
     border-radius: 5px;
 }
